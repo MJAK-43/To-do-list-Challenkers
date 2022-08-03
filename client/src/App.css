@@ -1,0 +1,125 @@
+body {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: #56CCF2;
+  font-family: "Montserrat", sans-serif;
+
+}
+
+.header {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.font{
+  font-family: "Montserrat", sans-serif;
+}
+
+.tras{
+  background-color: transparent;
+  border-color: #56CCF2;
+  border: 0px;
+}
+
+.inter{
+  width: 610px;
+  height: 50px;
+}
+
+.row {
+  padding-bottom: 50px;
+}
+
+.buttons {
+  align:center ;
+  border-radius: 4px;
+  background-color: green;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+  width: 120px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #FFC300;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+  width: 120px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.floats{
+  float: left;
+}
+
+.float{
+  float: right;
+}
+
+.div_all {
+  float: left;
+  padding: 10px;
+  margin-right:30px;
+}
+.div_alls {
+  float: right;
+  margin-right:130px;
+}
+
+.div_allss {
+  float: right;
+}
+
+.div1 {
+  width:200px;
+
+}
+
+.div2 {
+  width:80px;
+}
+
+.div3 {
+  padding: 12px;
+  width:250px;
+}
+
